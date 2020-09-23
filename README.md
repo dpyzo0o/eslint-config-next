@@ -2,7 +2,9 @@
 
 This package includes the shareable ESLint configuration for a js/ts Next.js app.
 
-## Install
+## Installation
+
+Note that you have to install all peer dependencies.
 
 ```bash
 npm install --save-dev @dpyzo0o/eslint-config-next eslint babel-eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-config-prettier
