@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   parser: 'babel-eslint',
   plugins: ['react', 'react-hooks', 'import'],
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
   env: {
     browser: true,
     commonjs: true,
@@ -60,7 +60,10 @@ module.exports = {
         warnOnUnsupportedTypeScriptVersion: false,
       },
       plugins: ['@typescript-eslint'],
-      extends: ['plugin:@typescript-eslint/recommended'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'prettier/@typescript-eslint',
+      ],
       rules: {
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': [
