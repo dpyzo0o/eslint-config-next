@@ -83,6 +83,8 @@ module.exports = {
             typedefs: false,
           },
         ],
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
       },
     },
   ],
