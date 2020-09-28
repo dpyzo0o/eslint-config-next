@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/dpyzo0o/eslint-config-next/compare/v0.1.2...v0.1.3) (2020-09-28)
+
+
+### Features
+
+* override more rules ([c2d5594](https://github.com/dpyzo0o/eslint-config-next/commit/c2d5594a92f52b5179f0096592d2d2b0d66682ad))
+
 ### [0.1.2](https://github.com/dpyzo0o/eslint-config-next/compare/v0.1.1...v0.1.2) (2020-09-23)
 
 
